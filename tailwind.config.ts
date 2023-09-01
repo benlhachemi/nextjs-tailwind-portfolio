@@ -62,11 +62,65 @@ const config: Config = {
             transform: "translateX(0) translateY(0) scale(1.7)"
           }
         },
+        card: {
+          "0%": {
+            transform: "scale(0.95) translateX(0) translateY(0) rotate(-3deg)"
+          },
+          "20%": {
+            transform: "scale(0.95) translateX(0) translateY(0) rotate(-3deg)"
+          },
+          "35%": {
+            transform: "scale(1.05) translateX(0%) translateY(-20%) rotate(-10deg)"
+          },
+          "85%": {
+            transform: "scale(1.05) translateX(0%) translateY(-20%) rotate(-10deg)"
+          },
+          "100%": {
+            transform: "scale(0.95) translateX(0) translateY(0) rotate(-3deg)"
+          }
+        },
+        card2: {
+          "0%": {
+            transform: "scale(0.99) translateX(0) translateY(0)"
+          },
+          "20%": {
+            transform: "scale(0.99) translateX(0) translateY(0)"
+          },
+          "35%": {
+            transform: "scale(1.02) translateX(0%) translateY(-20%)"
+          },
+          "85%": {
+            transform: "scale(1.02) translateX(0%) translateY(-20%)"
+          },
+          "100%": {
+            transform: "scale(0.99) translateX(0) translateY(0)"
+          }
+        },
+        card3: {
+          "0%": {
+            transform: "scale(0.9) translateX(0) translateY(0) rotate(6deg)"
+          },
+          "20%": {
+            transform: "scale(0.9) translateX(0) translateY(0) rotate(6deg)"
+          },
+          "35%": {
+            transform: "scale(1.05) translateX(50%) translateY(-20%) rotate(10deg)"
+          },
+          "85%": {
+            transform: "scale(1.05) translateX(50%) translateY(-20%) rotate(10deg)"
+          },
+          "100%": {
+            transform: "scale(0.9) translateX(0) translateY(0) rotate(6deg)"
+          }
+        },
       },
       animation: {
         blob: 'blob 30s infinite linear',
         circle: 'circle 30s infinite linear',
-        circle2: 'circle2 30s infinite linear'
+        circle2: 'circle2 30s infinite linear',
+        card: 'card 10s infinite linear',
+        card2: 'card2 10s infinite linear',
+        card3: 'card3 10s infinite linear',
       }
     },
   },

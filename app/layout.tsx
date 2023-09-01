@@ -21,7 +21,7 @@ export default function RootLayout({
         content="width=device-width, initial-scale=1.0, user-scalable=no"
       />
       <body className={inter.className}>
-        <div className="w-full bg-black min-h-screen py-2 overflow-x-hidden px-6 lg:px-12 text-gray-200">
+        <div className="w-full section bg-black min-h-screen py-2 lg:py-10 overflow-x-hidden px-6 lg:px-12 xl:px-20 2xl:px-36  text-gray-200">
           {children}
         </div>
       </body>

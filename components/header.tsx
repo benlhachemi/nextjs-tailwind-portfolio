@@ -10,9 +10,9 @@ import Lottie from 'lottie-react';
 
 export default function Header() {
   return (
-    <div className="w-fit mx-auto py-4 lg:py-6 block lg:flex gap-2 z-50 relative bg-black bg-opacity-10 rounded-3xl shadow-lg">
+    <div className="w-fit card mx-auto py-4 lg:py-6 block lg:flex gap-0 z-50 relative bg-gray-700 border-gray-200 border-4 bg-opacity-30 backdrop-blur-xl rounded-3xl shadow-xl">
       <Lottie
-        className="w-44 mx-auto 2xl:w-full xl:w-56"
+        className="w-44 mx-auto xl:w-56 2xl:w-64"
         animationData={avatarAnimation}
         loop={true}
       />
@@ -22,7 +22,7 @@ export default function Header() {
           <h2 className="font-medium w-full text-2xl justify-center lg:justify-start mx-auto lg:mx-0 flex gap-2 flex-wrap">
             <span>Hi I'm </span>
             <Lottie animationData={handAnimation} loop={true} className="w-8" />
-            <span className="text-transparent bg-clip-text bg-gradient-to-bl from-green-400 to-blue-400">
+            <span className="text-green-400">
               Souhail Benlhachemi
             </span>
           </h2>
