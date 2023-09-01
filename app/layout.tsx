@@ -16,8 +16,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0, user-scalable=no"
+      />
       <body className={inter.className}>
-        <div className="w-full bg-black min-h-screen py-6 px-6 md:px-12 lg:px-20 text-gray-200">
+        <div className="w-full bg-black min-h-screen py-2 overflow-x-hidden px-6 lg:px-12 text-gray-200">
           {children}
         </div>
       </body>
